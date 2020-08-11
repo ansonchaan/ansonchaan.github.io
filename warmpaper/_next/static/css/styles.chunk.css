@@ -143,21 +143,21 @@ table {
 
 @font-face {
   font-family: 'Okta Neue';
-  src: url("/warmpaper/fonts/OktaNeue-Black.woff2") format("woff2"), url("/warmpaper/fonts/OktaNeue-Black.woff") format("woff"), url("/warmpaper/fonts/OktaNeue-Black.ttf") format("truetype");
+  src: url("/fonts/OktaNeue-Black.woff2") format("woff2"), url("/fonts/OktaNeue-Black.woff") format("woff"), url("/fonts/OktaNeue-Black.ttf") format("truetype");
   font-weight: 900;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Okta Neue';
-  src: url("/warmpaper/fonts/OktaNeue-Regular.woff2") format("woff2"), url("/warmpaper/fonts/OktaNeue-Regular.woff") format("woff"), url("/warmpaper/fonts/OktaNeue-Regular.ttf") format("truetype");
+  src: url("/fonts/OktaNeue-Regular.woff2") format("woff2"), url("/fonts/OktaNeue-Regular.woff") format("woff"), url("/fonts/OktaNeue-Regular.ttf") format("truetype");
   font-weight: normal;
   font-style: normal;
   font-display: swap; }
 
 @font-face {
   font-family: 'Okta Neue';
-  src: url("/warmpaper/fonts/OktaNeue-UltraLight.woff2") format("woff2"), url("/warmpaper/fonts/OktaNeue-UltraLight.woff") format("woff"), url("/warmpaper/fonts/OktaNeue-UltraLight.ttf") format("truetype");
+  src: url("/fonts/OktaNeue-UltraLight.woff2") format("woff2"), url("/fonts/OktaNeue-UltraLight.woff") format("woff"), url("/fonts/OktaNeue-UltraLight.ttf") format("truetype");
   font-weight: 200;
   font-style: normal;
   font-display: swap; }
@@ -613,7 +613,7 @@ body {
       content: '';
       width: 2.625rem;
       height: 3.12375rem;
-      background: url("/warmpaper/images/logo.svg") no-repeat;
+      background: url("/images/logo.svg") no-repeat;
       background-size: 100%;
       display: block; }
     #nav #logo span {
@@ -721,7 +721,7 @@ body {
     top: 0;
     z-index: 2;
     padding-left: 8.375rem;
-    background: url("/warmpaper/images/paper.png") repeat;
+    background: url("/images/paper.png") repeat;
     box-shadow: 0.625rem 0.625rem 3.125rem #0000005C;
     display: flex;
     flex-direction: column;
@@ -736,7 +736,7 @@ body {
       content: '';
       width: 40rem;
       height: 44.375rem;
-      background: url("/warmpaper/images/logo.svg") no-repeat;
+      background: url("/images/logo.svg") no-repeat;
       background-size: 100%;
       position: absolute;
       top: 18%;
@@ -757,7 +757,7 @@ body {
         #nav #menu a #text #brush {
           width: 0%;
           height: 100%;
-          background: url("/warmpaper/images/brush.png") left center no-repeat;
+          background: url("/images/brush.png") left center no-repeat;
           background-size: 100%;
           position: absolute;
           top: 8%;
@@ -845,7 +845,7 @@ body {
     content: '';
     width: 37%;
     height: 100%;
-    background: url("/warmpaper/images/footer_bg.png") center no-repeat;
+    background: url("/images/footer_bg.png") center no-repeat;
     background-size: 100%;
     position: absolute;
     top: 0;
@@ -864,7 +864,7 @@ body {
     #footer #wrap #logo {
       width: 4.5rem;
       height: 4.905rem;
-      background: url("/warmpaper/images/logo.svg") no-repeat;
+      background: url("/images/logo.svg") no-repeat;
       background-size: 100%;
       margin-bottom: 3.5625rem;
       margin-left: -0.5625rem;
@@ -903,7 +903,7 @@ body {
     bottom: 1.25rem;
     right: 13.5%;
     z-index: 3;
-    background: url("/warmpaper/images/footer_facebook.png") no-repeat;
+    background: url("/images/footer_facebook.png") no-repeat;
     background-size: 100%;
     transition: transform 0.3s cubic-bezier(0.65, 0, 0.35, 1); }
     #footer #fb:hover {
@@ -918,7 +918,7 @@ body {
     top: 1.25rem;
     right: 3%;
     z-index: 2;
-    background: url("/warmpaper/images/footer_instagram.png") no-repeat;
+    background: url("/images/footer_instagram.png") no-repeat;
     background-size: 100%;
     display: flex;
     justify-content: flex-end;
@@ -932,7 +932,7 @@ body {
   #footer #bg2 {
     width: 75%;
     height: 100%;
-    background: url("/warmpaper/images/footer_paper.png") left 20% no-repeat;
+    background: url("/images/footer_paper.png") left 20% no-repeat;
     background-size: 100%;
     position: absolute;
     top: 0;
@@ -1114,7 +1114,7 @@ body {
           content: '';
           width: 4.5rem;
           height: 5.625rem;
-          background: url("/warmpaper/images/label3.png") center no-repeat;
+          background: url("/images/label3.png") center no-repeat;
           background-size: 100%;
           margin-left: -0.9375rem; }
       #home #banner #slogan h5 {
@@ -1137,7 +1137,7 @@ body {
   #home #h_projects {
     padding-top: 9.5rem;
     padding-bottom: 4.1875rem;
-    background: url("/warmpaper/images/paper.png") repeat; }
+    background: url("/images/paper.png") repeat; }
     #home #h_projects #wrap {
       display: flex;
       justify-content: space-between;
@@ -1146,7 +1146,7 @@ body {
         content: '';
         width: 50.5rem;
         height: 19.695rem;
-        background: url("/warmpaper/images/line1.png") no-repeat;
+        background: url("/images/line1.png") no-repeat;
         background-size: 100%;
         position: absolute;
         bottom: 0;
@@ -1169,7 +1169,7 @@ body {
             content: '';
             width: 23.625rem;
             height: 23.625rem;
-            background: url("/warmpaper/images/label.png") no-repeat;
+            background: url("/images/label.png") no-repeat;
             background-size: 100%;
             position: absolute;
             top: 1.25rem;
@@ -1309,7 +1309,7 @@ body {
             content: '';
             width: 1.875rem;
             height: 1.3125rem;
-            background: url("/warmpaper/images/arrow.svg") no-repeat;
+            background: url("/images/arrow.svg") no-repeat;
             background-size: 100%;
             position: absolute;
             bottom: 0.8125rem;
@@ -1321,7 +1321,7 @@ body {
         #home #h_solutions ul li:nth-child(1) .icon {
           width: 2.4375rem;
           height: 2.0625rem;
-          background: #fff url("/warmpaper/images/solutions1.svg") no-repeat;
+          background: #fff url("/images/solutions1.svg") no-repeat;
           background-size: 100%;
           position: relative; }
           #home #h_solutions ul li:nth-child(1) .icon:before {
@@ -1336,17 +1336,17 @@ body {
         #home #h_solutions ul li:nth-child(2) .icon {
           width: 2.6875rem;
           height: 2.5rem;
-          background: url("/warmpaper/images/solutions2.svg") no-repeat;
+          background: url("/images/solutions2.svg") no-repeat;
           background-size: 100%; }
         #home #h_solutions ul li:nth-child(3) .icon {
           width: 2.625rem;
           height: 2.5625rem;
-          background: url("/warmpaper/images/solutions3.svg") no-repeat;
+          background: url("/images/solutions3.svg") no-repeat;
           background-size: 100%; }
         #home #h_solutions ul li:nth-child(4) .icon {
           width: 2.6875rem;
           height: 2.3125rem;
-          background: url("/warmpaper/images/note.svg") center no-repeat;
+          background: url("/images/note.svg") center no-repeat;
           background-size: 100%; }
         #home #h_solutions ul li .icon {
           margin-bottom: 1.4375rem; }
@@ -1402,7 +1402,7 @@ body {
   #home #h_about {
     width: 100%;
     height: 34.5625rem;
-    background: url("/warmpaper/images/orange_paper_cover.jpg") center no-repeat;
+    background: url("/images/orange_paper_cover.jpg") center no-repeat;
     background-size: cover;
     color: #fff;
     position: relative;
@@ -1415,7 +1415,7 @@ body {
       #home #h_about #wrap #icon {
         width: 7.5rem;
         height: 6.435rem;
-        background: url("/warmpaper/images/note.svg") no-repeat;
+        background: url("/images/note.svg") no-repeat;
         background-size: 100%;
         margin-bottom: 2.375rem; }
       #home #h_about #wrap h4 {
@@ -1664,7 +1664,7 @@ body {
   padding-bottom: 0; }
 
 #about #header {
-  background: url("/warmpaper/images/paper.png") repeat; }
+  background: url("/images/paper.png") repeat; }
   #about #header #wrap {
     width: 100%;
     height: 31.75rem;
@@ -1676,7 +1676,7 @@ body {
       content: '';
       width: 34.5625rem;
       height: 16.79737rem;
-      background: url("/warmpaper/images/line2.png") center no-repeat;
+      background: url("/images/line2.png") center no-repeat;
       background-size: 100%;
       position: absolute;
       bottom: 5.9375rem;
@@ -1707,7 +1707,7 @@ body {
       position: absolute;
       top: 15.1875rem;
       right: 10.5625rem;
-      background: #FFE332 url("/warmpaper/images/smile.png") center 30% no-repeat;
+      background: #FFE332 url("/images/smile.png") center 30% no-repeat;
       background-size: 85%;
       transform: translate3d(0, 0, 0) rotate(0deg);
       transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
@@ -1842,7 +1842,7 @@ body {
       content: '';
       width: 58vw;
       height: 50vw;
-      background: url("/warmpaper/images/About_KV.png") no-repeat;
+      background: url("/images/About_KV.png") no-repeat;
       background-size: 100%;
       position: absolute;
       top: 50%;
@@ -1962,7 +1962,7 @@ body {
       height: 1.25rem; } }
 
 #projects {
-  background: url("/warmpaper/images/paper.png") repeat; }
+  background: url("/images/paper.png") repeat; }
   #projects #tagWrap {
     background: #F7F6F1;
     color: #515F7A;
@@ -2237,7 +2237,7 @@ body {
     content: '';
     width: 100%;
     height: 4.75rem;
-    background: url("/warmpaper/images/paper_edge.png") center no-repeat;
+    background: url("/images/paper_edge.png") center no-repeat;
     background-size: cover;
     position: absolute;
     bottom: 0;
@@ -2448,7 +2448,7 @@ body {
     font-size: 1.5625rem; } }
 
 #solutions {
-  background: url("/warmpaper/images/paper.png") repeat; }
+  background: url("/images/paper.png") repeat; }
   #solutions #description {
     background: #e3e3e3;
     color: #fff;
@@ -2481,7 +2481,7 @@ body {
         width: 7.25rem;
         height: 7.25rem;
         border-radius: 50%;
-        background: #fff url("/warmpaper/images/rocket.svg") center no-repeat;
+        background: #fff url("/images/rocket.svg") center no-repeat;
         background-size: 2.9375rem;
         position: absolute;
         top: -1.25rem;
@@ -2490,7 +2490,7 @@ body {
           content: '';
           width: 23.75rem;
           height: 12.5rem;
-          background: url("/warmpaper/images/line1.png") no-repeat;
+          background: url("/images/line1.png") no-repeat;
           background-size: 100%;
           position: absolute;
           top: 30%;
@@ -2529,7 +2529,7 @@ body {
             #solutions #description #bgWrap #bg span:nth-child(1):before {
               background: #ff7b00; }
   #solutions #outerWrap {
-    background: url("/warmpaper/images/formbg.png") center no-repeat;
+    background: url("/images/formbg.png") center no-repeat;
     background-size: cover; }
     #solutions #outerWrap #listWrap {
       padding-top: 4.6875rem;
@@ -2543,7 +2543,7 @@ body {
           #solutions #outerWrap #listWrap > ul > li:nth-child(1) a {
             color: #65474B; }
             #solutions #outerWrap #listWrap > ul > li:nth-child(1) a #front:after {
-              background: url("/warmpaper/images/s_Icon_1.png") no-repeat;
+              background: url("/images/s_Icon_1.png") no-repeat;
               background-size: 100%;
               bottom: 1.875rem;
               left: 1.875rem; }
@@ -2563,7 +2563,7 @@ body {
                 display: flex;
                 align-items: flex-end; }
                 #solutions #outerWrap #listWrap > ul > li:nth-child(2) a #front:after {
-                  background: url("/warmpaper/images/s_Icon_2.png") no-repeat;
+                  background: url("/images/s_Icon_2.png") no-repeat;
                   background-size: 100%;
                   top: 1.875rem;
                   right: 1.875rem; }
@@ -2585,7 +2585,7 @@ body {
               #solutions #outerWrap #listWrap > ul > li:nth-child(4) a h6 {
                 color: #888B57; }
               #solutions #outerWrap #listWrap > ul > li:nth-child(4) a #front:after {
-                background: url("/warmpaper/images/s_Icon_3.png") no-repeat;
+                background: url("/images/s_Icon_3.png") no-repeat;
                 background-size: 100%;
                 bottom: 0;
                 left: 1.875rem;
@@ -2610,7 +2610,7 @@ body {
               #solutions #outerWrap #listWrap > ul > li:nth-child(5) a #front:after {
                 top: 1.875rem;
                 left: 1.875rem;
-                background: url("/warmpaper/images/s_Icon_4.png") center no-repeat;
+                background: url("/images/s_Icon_4.png") center no-repeat;
                 background-size: 100%; }
               #solutions #outerWrap #listWrap > ul > li:nth-child(5) a #front #wrap #title {
                 width: calc(100% - 5.625rem);
@@ -2646,7 +2646,7 @@ body {
                   content: '';
                   width: 10rem;
                   height: 10rem;
-                  background: url("/warmpaper/images/smile.png") center no-repeat;
+                  background: url("/images/smile.png") center no-repeat;
                   background-size: 100%;
                   position: absolute;
                   top: 25%;
@@ -2884,12 +2884,12 @@ body {
       position: relative;
       padding: 1.875rem 2.625rem 1.4375rem;
       color: #515F7A;
-      background: url("/warmpaper/images/contactbg.png") no-repeat; }
+      background: url("/images/contactbg.png") no-repeat; }
       #contact #wrap #info:before {
         content: '';
         width: 7.0625rem;
         height: 5.125rem;
-        background: url("/warmpaper/images/rigaiff.png") center no-repeat;
+        background: url("/images/rigaiff.png") center no-repeat;
         background-size: 100%;
         mix-blend-mode: color-burn;
         position: absolute;
@@ -2923,9 +2923,9 @@ body {
               width: 2.125rem;
               height: 2.125rem; }
               #contact #wrap #info #infoWrap #iconWrap li a#fb {
-                background: url("/warmpaper/images/fb.svg") no-repeat; }
+                background: url("/images/fb.svg") no-repeat; }
               #contact #wrap #info #infoWrap #iconWrap li a#ig {
-                background: url("/warmpaper/images/ig.svg") no-repeat; }
+                background: url("/images/ig.svg") no-repeat; }
     #contact #wrap #form {
       width: 60.131vw;
       height: auto;
@@ -2934,7 +2934,7 @@ body {
       bottom: -30.3125rem;
       right: 5.1875rem;
       z-index: 10;
-      background: url("/warmpaper/images/formbg2.png") left top no-repeat;
+      background: url("/images/formbg2.png") left top no-repeat;
       background-size: 100%;
       transform: translate3d(0, 0, 0);
       transition: transform 0.6s cubic-bezier(0.33, 1, 0.68, 1); }
@@ -2945,7 +2945,7 @@ body {
         position: absolute;
         top: 100%;
         left: 0;
-        background: url("/warmpaper/images/formbot.png") no-repeat;
+        background: url("/images/formbot.png") no-repeat;
         background-size: 100%; }
       #contact #wrap #form:not(.open) #title {
         cursor: pointer; }
@@ -3010,7 +3010,7 @@ body {
           width: 2.1875rem;
           height: 2.1875rem;
           margin-right: 1.25rem;
-          background: url("/warmpaper/images/mailicon.svg") center no-repeat;
+          background: url("/images/mailicon.svg") center no-repeat;
           display: inline-block; }
       #contact #wrap #form #remark {
         color: #CBCBCB;
@@ -3042,7 +3042,7 @@ body {
         position: absolute;
         bottom: 1.875rem;
         right: 2.5rem;
-        background: url("/warmpaper/images/label2.png") right bottom no-repeat;
+        background: url("/images/label2.png") right bottom no-repeat;
         background-size: 12rem;
         cursor: pointer; }
         #contact #wrap #form form #submit:hover div {
@@ -3054,7 +3054,7 @@ body {
           position: absolute;
           top: 0;
           left: 0;
-          background: #FFE332 url("/warmpaper/images/smile.png") center 30% no-repeat;
+          background: #FFE332 url("/images/smile.png") center 30% no-repeat;
           background-size: 80%;
           transform: translate3d(0, 0, 0) rotate(0deg);
           transition: transform 0.3s cubic-bezier(0.33, 1, 0.68, 1);
@@ -3063,7 +3063,7 @@ body {
           content: '';
           width: 3.1875rem;
           height: 3.6875rem;
-          background: url("/warmpaper/images/linearrow.svg") no-repeat;
+          background: url("/images/linearrow.svg") no-repeat;
           background-size: 100%;
           display: block;
           transform: translate3d(0, 0, 0) rotate(-75deg);
@@ -3074,7 +3074,7 @@ body {
           content: '';
           width: 3.5rem;
           height: 2.5625rem;
-          background: url("/warmpaper/images/arrow_w.svg") no-repeat;
+          background: url("/images/arrow_w.svg") no-repeat;
           background-size: 100%;
           display: block;
           position: absolute;
