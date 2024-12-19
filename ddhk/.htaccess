@@ -1,0 +1,6 @@
+SetOutputFilter DEFLATE
+SetEnvIfNoCase Request_URI .(mp4|ogv|webm)$ no-gzip dont-vary
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^ /index.html [L]
