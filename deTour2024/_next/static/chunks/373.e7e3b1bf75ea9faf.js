@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[373],{6373:function(a,e,t){t.r(e);var i=t(7437);e.default=a=>{let{slice:e}=a;return(0,i.jsxs)("section",{"data-slice-type":e.slice_type,"data-slice-variation":e.variation,children:["Placeholder component for location_and_dates (variation: ",e.variation,") Slices"]})}}}]);
