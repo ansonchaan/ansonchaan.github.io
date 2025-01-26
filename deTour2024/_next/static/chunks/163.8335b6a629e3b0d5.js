@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[163],{7163:function(e,a,i){i.r(a);var t=i(7437);a.default=e=>{let{slice:a}=e;return(0,t.jsxs)("section",{"data-slice-type":a.slice_type,"data-slice-variation":a.variation,children:["Placeholder component for venue_map (variation: ",a.variation,") Slices"]})}}}]);

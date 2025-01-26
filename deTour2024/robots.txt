@@ -1,3 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://detour.hk/2024/sitemap.xml
